@@ -54,7 +54,7 @@
     ))
 
 ; Imagine that this macro is a VERY specialized do-template
-(defmacro ^:private make-fns [& specifics]
+(defmacro ^:private make-fns [& specifics] 
   (let [standard-fields '(response-group subscription-id associate-tag merchant-id)]
     `(do ~@(for [[operation specific-appends] (partition 2 specifics)]
              (let [strs (_extract-strs specific-appends),

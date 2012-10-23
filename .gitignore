@@ -5,6 +5,7 @@ core
 pom.xml
 *.jar
 *.class
+.project
 
 /lib/
 /classes/
