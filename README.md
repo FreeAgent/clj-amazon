@@ -1,16 +1,16 @@
 clj-amazon
 ==========
 
-Clojure wrapper library for Amazon Product Advertising API, based on code from Clojars by eduardoejp
+Clojure wrapper library for Amazon Product Advertising API, forked from code left on Clojars by eduardoejp.
 
 ## Usage
 
 Leiningen 2 has been used with this project.
 
 
-lein deps
+    lein deps
 
-lein repl
+    lein repl
 
 
 And at the REPL...
