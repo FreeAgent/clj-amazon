@@ -15,17 +15,17 @@ lein repl
 
 And at the REPL...
 
-(use 'clj-amazon.core)
+    (use 'clj-amazon.core)
 
-(use 'clj-amazon.product-advertising)
+    (use 'clj-amazon.product-advertising)
 
-(def ACCESS-KEY "YOUR-ACCESS-KEY-HERE" )
+    (def ACCESS-KEY "YOUR-ACCESS-KEY-HERE" )
 
-(def SECRET-KEY "YOUR-SECRET-KEY-HERE" )
+    (def SECRET-KEY "YOUR-SECRET-KEY-HERE" )
 
-(def ASSOCIATE-ID "YOUR-ASSOCIATE-ID-HERE")
+    (def ASSOCIATE-ID "YOUR-ASSOCIATE-ID-HERE")
 
-(def gibson-opus-search (with-signer (ACCESS-KEY, SECRET-KEY) (item-search :search-index "Books", :keywords "Neuromancer", :associate-tag ASSOCIATE-ID, :condition "New")))
+    (def gibson-opus-search (with-signer (ACCESS-KEY, SECRET-KEY) (item-search :search-index "Books", :keywords "Neuromancer", :associate-tag ASSOCIATE-ID, :condition "New")))
 
 
 You can find more information about the Amazon Product Advertising API on the following web-pages.
