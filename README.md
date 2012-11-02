@@ -1,7 +1,7 @@
 clj-amazon
 ==========
 
-Clojure wrapper library for Amazon Product Advertising API, forked from code left on Clojars by eduardoejp.
+Clojure wrapper library for Amazon Product Advertising API, forked from code on Clojars by eduardoejp.
 
 ## Usage
 
