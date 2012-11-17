@@ -11,7 +11,7 @@
 ;; You must not remove this notice, or any other, from this software.
 
 (ns clj-amazon.product-advertising
-  "This is an small Clojure binding for the Amazon Product Advertising API. You can find more information about the API here: http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/index.html?Welcome.html"
+  "This is a small Clojure binding for the Amazon Product Advertising API. You can find more information about the API here: http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/index.html?Welcome.html"
   (:use clj-amazon.core)
   (:require [clojure.walk :as walk]))
 
